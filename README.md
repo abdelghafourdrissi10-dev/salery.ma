@@ -1,0 +1,1 @@
+# salery.ma
