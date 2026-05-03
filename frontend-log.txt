@@ -1,0 +1,679 @@
+
+> salery---moroccan-hr-&-payroll-ai@0.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v6.4.1[39m  [2mready in [0m[1m1530[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3005[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.8.148:[1m3005[22m/[39m
+[2m12:32:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/SetupAccount.tsx[22m
+[2m12:32:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/SetupAccount.tsx[22m
+[2m16:05:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/DocumentGenerator.tsx[22m
+[2m17:29:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:45:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:46:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:46:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:46:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:46:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:46:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:54:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:54:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:57:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m21:58:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m22:04:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m22:29:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m23:28:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/RecruitmentATS.tsx[22m
+[2m23:36:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Header.tsx[22m
+[2m23:39:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Header.tsx[22m
+[2m18:54:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:16:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m19:16:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m19:17:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:17:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css?direct[22m
+[2m19:19:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EmployeeProfile.tsx[22m
+[2m19:19:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:29:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:29:02[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:29:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:29:29[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:29:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayslipPDF.tsx[22m
+[2m19:30:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[39m
+ [90m 111 |[39m   [36mconst[39m t [33m=[39m {
+[31m[1m>[22m[39m[90m 112 |[39m     fr[33m:[39m { title[33m:[39m [32m"Intelligence Paie V10"[39m[33m,[39m sub[33m:[39m [32m"Calculs conformes Loi 65-99"[39m[33m,[39m colEmp[33m:[39m [32m"Collaborateur"[39m[33m,[39m colMass[33m:[39m [32m"Masse Brut"[39m[33m,[39m colNet[33m:[39m [32m"Net à Payer"[39m[33m,[39m btnView[33m:[39m [32m"BULLETIN"[39m }[33m,[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 113 |[39m     ar[33m:[39m { title[33m:[39m [32m"ذكاء الأجور V10"[39m[33m,[39m sub[33m:[39m [32m"حسابات مطابقة للقانون 65-99"[39m[33m,[39m colEmp[33m:[39m [32m"المتعاون"[39m[33m,[39m colMass[33m:[39m [32m"الأجر الخام"[39m[33m,[39m colNet[33m:[39m [32m"الصافي للأداء"[39m[33m,[39m btnView[33m:[39m [32m"ورقة الأداء"[39m }
+ [90m 114 |[39m   }[lang [33m===[39m [32m'ar'[39m [33m?[39m [32m'ar'[39m [33m:[39m [32m'fr'[39m][33m;[39m
+ [90m 115 |[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+[2m19:30:40[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:30:46[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:30:51[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:31:04[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:31:12[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:31:12[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:31:33[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\HP\Downloads\salery.ma-main\src\components\PayrollCalculator.tsx: Unexpected token, expected "}" (112:6)
+
+[0m [90m 110 |[31m
+ [90m 111 |[31m   [36mconst[31m t [33m=[31m {
+[31m[1m>[22m[31m[90m 112 |[31m     fr[33m:[31m { title[33m:[31m [32m"Intelligence Paie V10"[31m[33m,[31m sub[33m:[31m [32m"Calculs conformes Loi 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"Collaborateur"[31m[33m,[31m colMass[33m:[31m [32m"Masse Brut"[31m[33m,[31m colNet[33m:[31m [32m"Net à Payer"[31m[33m,[31m btnView[33m:[31m [32m"BULLETIN"[31m }[33m,[31m
+ [90m     |[31m       [31m[1m^[22m[31m
+ [90m 113 |[31m     ar[33m:[31m { title[33m:[31m [32m"ذكاء الأجور V10"[31m[33m,[31m sub[33m:[31m [32m"حسابات مطابقة للقانون 65-99"[31m[33m,[31m colEmp[33m:[31m [32m"المتعاون"[31m[33m,[31m colMass[33m:[31m [32m"الأجر الخام"[31m[33m,[31m colNet[33m:[31m [32m"الصافي للأداء"[31m[33m,[31m btnView[33m:[31m [32m"ورقة الأداء"[31m }
+ [90m 114 |[31m   }[lang [33m===[31m [32m'ar'[31m [33m?[31m [32m'ar'[31m [33m:[31m [32m'fr'[31m][33m;[31m
+ [90m 115 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/HP/Downloads/salery.ma-main/src/components/PayrollCalculator.tsx[39m:112:6
+[33m  110|  
+  111|    const t = {
+  112|      fr: { title: "Intelligence Paie V10", sub: "Calculs conformes Loi 65-99", colEmp: "Collaborateur", colMass: "Masse Brut", colNet: "Net à Payer", btnView: "BULLETIN" },
+     |        ^
+  113|      ar: { title: "ذكاء الأجور V10", sub: "حسابات مطابقة للقانون 65-99", colEmp: "المتعاون", colMass: "الأجر الخام", colNet: "الصافي للأداء", btnView: "ورقة الأداء" }
+  114|    }[lang === 'ar' ? 'ar' : 'fr'];[39m
+      at constructor (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4637:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4711:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9775:18)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\HP\Downloads\salery.ma-main\node_modules\@babel\parser\lib\index.js:12767:17)
+[2m19:32:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:36:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:39:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:44:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m19:53:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayslipPDF.tsx[22m
+[2m19:53:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m20:17:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayslipPDF.tsx[22m
+[2m20:21:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayslipPDF.tsx[22m
+[2m20:21:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayslipPDF.tsx[22m
+[2m20:27:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PayrollCalculator.tsx[22m
+[2m20:28:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mhtml-to-image[32m[39m
+[2m20:28:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m20:44:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:45:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:45:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Header.tsx[22m
+[2m20:50:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:50:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:52:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:54:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:54:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m
+[2m20:56:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Dashboard.tsx[22m

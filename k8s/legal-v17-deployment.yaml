@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: salery-legal-engine
+  namespace: salery-prod
+  labels:
+    app: legal-engine
+    tier: compliance
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: legal-engine
+  template:
+    metadata:
+      labels:
+        app: legal-engine
+    spec:
+      containers:
+      - name: legal-ai-agent
+        image: salery/legal-engine:v17.0.2-stable
+        ports:
+        - containerPort: 8080
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: AI_MODEL
+          value: "gemini-3-pro-preview"
+        - name: EVENT_BUS_URL
+          value: "nats://nats-prod:4222"
+        resources:
+          limits:
+            cpu: "2000m"
+            memory: "4Gi"
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 8080
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 8080
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: legal-engine-hpa
+  namespace: salery-prod
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: salery-legal-engine
+  minReplicas: 3
+  maxReplicas: 12
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70

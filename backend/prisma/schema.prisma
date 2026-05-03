@@ -1,0 +1,380 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  HR
+  EMPLOYEE
+  SUPER_ADMIN
+}
+
+enum SalaryType {
+  HOURLY
+  MONTHLY
+}
+
+enum DocumentType {
+  CONTRACT
+  ID_CARD
+  PAYROLL
+  CERTIFICATE
+  IDENTITY
+  PHOTO
+  OTHER
+}
+
+model Company {
+  id        String   @id @default(uuid())
+  name      String
+  address   String?
+  phone     String?
+  email     String?
+  createdAt DateTime @default(now())
+
+  users     UserCompany[]
+  employees Employee[]
+}
+
+model User {
+  id               String   @id @default(uuid())
+  email            String   @unique
+  password         String
+  role             Role     @default(ADMIN)
+  status           String   @default("ACTIVE") // ACTIVE, INACTIVE
+  currentCompanyId String?
+  createdAt        DateTime @default(now())
+
+  companies        UserCompany[]
+}
+
+model UserCompany {
+  id        String   @id @default(uuid())
+  userId    String
+  companyId String
+  role      Role     @default(ADMIN)
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id])
+  company   Company  @relation(fields: [companyId], references: [id])
+
+  @@unique([userId, companyId])
+}
+
+model Employee {
+  id         String     @id @default(uuid())
+  firstName  String
+  lastName   String
+  phone      String?
+  email      String?    @unique
+  photoUrl   String?
+  position   String
+  hireDate        DateTime   @default(now())
+  contractType    String?    // CDI, CDD, ANAPEC, etc.
+  contractEndDate DateTime?
+  salaryType      SalaryType
+  baseSalary Float
+  leaveBalance Float @default(0)
+  companyId  String
+  createdAt  DateTime   @default(now())
+
+  // Personal & HR Fields
+  cin                    String?
+  socialSecurityNumber   String?
+  emergencyContact       String?
+  maritalStatus          String?
+  nationality            String?
+  dateOfBirth            DateTime?
+  placeOfBirth           String?
+  address                String?
+  city                   String?
+  country                String?
+  profileCompletionScore Int        @default(0)
+
+  // Banking
+  bankName               String?
+  rib                    String?
+
+  // Badge System
+  badgeId      String?
+  badgeQRCode  String?
+  badgeNFCId   String?
+  badgeStatus  String?    @default("ACTIVE")
+  badgeToken   String?
+
+  company          Company           @relation(fields: [companyId], references: [id])
+  attendance       Attendance[]
+  salary           Salary[]
+  documents        EmployeeDocument[]
+  events           EmployeeEvent[]
+  leaves           Leave[]
+  siteAssignments  SiteEmployee[]
+
+  @@index([companyId])
+}
+
+model Attendance {
+  id          String    @id @default(uuid())
+  employeeId  String
+  date        DateTime
+  checkIn     DateTime
+  checkOut    DateTime?
+  hoursWorked Float?
+
+  employee    Employee  @relation(fields: [employeeId], references: [id])
+
+  @@index([employeeId])
+  @@index([date])
+}
+
+model Salary {
+  id            String   @id @default(uuid())
+  employeeId    String
+  month         String   // e.g. "2023-10"
+  baseSalary    Float
+  overtimeHours Float    @default(0)
+  overtimePay   Float    @default(0)
+  deductions    Float    @default(0)
+  bonuses       Float    @default(0)
+  netSalary     Float
+  createdAt     DateTime @default(now())
+
+  employee      Employee @relation(fields: [employeeId], references: [id])
+
+  @@index([employeeId])
+  @@index([month])
+}
+
+model EmployeeDocument {
+  id          String       @id @default(uuid())
+  employeeId  String
+  name        String
+  type        DocumentType @default(OTHER)
+  fileUrl     String
+  fileSize    Int          @default(0)
+  mimeType    String       @default("application/octet-stream")
+  uploadedAt  DateTime     @default(now())
+  uploadedBy  String       @default("system")
+
+  employee    Employee     @relation(fields: [employeeId], references: [id])
+}
+
+model EmployeeEvent {
+  id          String   @id @default(uuid())
+  employeeId  String
+  type        String   // "EMPLOYEE_CREATED", "DOCUMENT_UPLOADED", "CONTRACT_UPLOADED", "SALARY_UPDATED", "PROMOTION", "DEPARTMENT_CHANGED", "ROLE_CHANGED", "CHECK_IN", "CHECK_OUT", "ABSENCE", "VACATION"
+  title       String
+  description String?
+  metadata    Json?
+  createdAt   DateTime @default(now())
+
+  employee    Employee @relation(fields: [employeeId], references: [id])
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  companyId String
+  userId    String
+  action    String   // e.g., "CREATE_EMPLOYEE", "UPDATE_SALARY"
+  resource  String   // e.g., "Employee", "Salary"
+  resourceId String?
+  details   Json?
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+
+  @@index([companyId])
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model Subscription {
+  id        String   @id @default(uuid())
+  companyId String   @unique
+  planId    String   @default("FREE")
+  status    String   @default("ACTIVE") // ACTIVE, PAST_DUE, CANCELED
+  nextBill  DateTime @default(now())
+  createdAt DateTime @default(now())
+}
+
+model Plan {
+  id        String   @id @default(uuid())
+  name      String   // e.g., "BASIC", "PRO", "ENTERPRISE"
+  price     Float
+  currency  String   @default("MAD")
+  features  Json?
+  isActive  Boolean  @default(true)
+}
+
+// ─── Leave Management ────────────────────────────────────────────────────────
+enum LeaveStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
+enum LeaveType {
+  CONGE_ANNUEL
+  MALADIE
+  MATERNITE
+  PATERNITE
+  SANS_SOLDE
+  AUTRE
+}
+
+model Leave {
+  id           String      @id @default(uuid())
+  employeeId   String
+  companyId    String
+  type         LeaveType   @default(CONGE_ANNUEL)
+  status       LeaveStatus @default(PENDING)
+  startDate    DateTime
+  endDate      DateTime
+  reason       String?
+  approvedBy   String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  employee     Employee    @relation(fields: [employeeId], references: [id])
+
+  @@index([employeeId])
+  @@index([companyId])
+  @@index([status])
+}
+
+// ─── Sites / Branches ────────────────────────────────────────────────────────
+model Site {
+  id          String         @id @default(uuid())
+  companyId   String
+  name        String
+  city        String?
+  address     String?
+  phone       String?
+  manager     String?
+  isActive    Boolean        @default(true)
+  createdAt   DateTime       @default(now())
+
+  employees   SiteEmployee[]
+  primes      SitePrime[]
+
+  @@index([companyId])
+}
+
+model SiteEmployee {
+  id          String   @id @default(uuid())
+  siteId      String
+  employeeId  String
+  assignedAt  DateTime @default(now())
+  isActive    Boolean  @default(true)
+
+  site        Site     @relation(fields: [siteId], references: [id])
+  employee    Employee @relation(fields: [employeeId], references: [id])
+
+  @@unique([siteId, employeeId])
+  @@index([employeeId])
+}
+
+// ─── Primes / Bonuses ────────────────────────────────────────────────────────
+model Prime {
+  id            String       @id @default(uuid())
+  companyId     String
+  name          String
+  amount        Float
+  isSoumisCnss  Boolean      @default(false)
+  isRecurring   Boolean      @default(true)
+  description   String?
+  createdAt     DateTime     @default(now())
+
+  sitePrimes    SitePrime[]
+
+  @@index([companyId])
+}
+
+model SitePrime {
+  id        String  @id @default(uuid())
+  siteId    String
+  primeId   String
+  isActive  Boolean @default(true)
+
+  site      Site    @relation(fields: [siteId], references: [id])
+  prime     Prime   @relation(fields: [primeId], references: [id])
+
+  @@unique([siteId, primeId])
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  companyId String
+  userId    String?  // Targeted user (e.g. "Payslip Ready")
+  role      String?  // Targeted role (e.g. "ALL_HR" or "ADMIN")
+  title     String
+  message   String
+  type      String?  // INFO, SUCCESS, WARNING, ERROR
+  isRead    Boolean  @default(false)
+  metadata  Json?    // Extra data (e.g. { employeeId: '...', reason: '...' })
+  createdAt DateTime @default(now())
+
+  @@index([companyId])
+  @@index([userId])
+}
+
+model NotificationRule {
+  id          String   @id @default(uuid())
+  companyId   String
+  name        String   // e.g. "Late 3 Times Alert"
+  event       String   // e.g. "attendance.late"
+  condition   Json     // e.g. { "count": 3, "period": "7d" }
+  targetRole  String?  // Who to notify (e.g. "HR")
+  targetUser  String?  // Specific user to notify
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@index([companyId])
+}
+
+model NotificationPreference {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  companyId       String
+  emailEnabled    Boolean  @default(true)
+  inAppEnabled    Boolean  @default(true)
+  pushEnabled     Boolean  @default(false)
+  smsEnabled      Boolean  @default(false)
+  mutedCategories String[] @default([]) // e.g. ["PAYROLL"]
+
+  @@index([companyId])
+}
+
+model UserInvite {
+  id          String   @id @default(uuid())
+  email       String
+  token       String   @unique // Hashed before storage
+  companyId   String
+  role        String   @default("EMPLOYEE") // ADMIN, HR, EMPLOYEE
+  status      String   @default("PENDING")  // PENDING, SENT, FAILED, ACCEPTED, EXPIRED
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  emailLogs   EmailLog[]
+
+  @@index([email])
+  @@index([companyId])
+}
+
+model EmailLog {
+  id           String   @id @default(uuid())
+  inviteId     String
+  status       String   // SENT, FAILED
+  errorMessage String?
+  attempts     Int      @default(0)
+  sentAt       DateTime @default(now())
+  invite       UserInvite @relation(fields: [inviteId], references: [id], onDelete: Cascade)
+
+  @@index([inviteId])
+}

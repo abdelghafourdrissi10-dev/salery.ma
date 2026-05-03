@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --salery-primary-teal: #0A9E9A;
+    --salery-primary-green: #34C759;
+    --salery-primary-blue: #0078D4;
+
+    --salery-bg: #F8FAFC;
+    --salery-bg-sidebar: #FFFFFF;
+
+    --salery-card: #FFFFFF;
+    --salery-card-hover: rgba(255, 255, 255, 0.95);
+
+    --salery-border: #E2E8F0;
+    --salery-border-hover: #CBD5E1;
+
+    --salery-text-primary: #0F172A;
+    --salery-text-secondary: #64748B;
+    --salery-text-muted: #94A3B8;
+
+    --salery-input-bg: #FFFFFF;
+
+    --salery-glass-bg: rgba(255, 255, 255, 0.85);
+  }
+
+
+  * {
+    min-width: 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--salery-bg);
+    font-family: 'Inter', sans-serif;
+    color: var(--salery-text-primary);
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media print {
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    html,
+    body {
+      width: 210mm !important;
+      height: 297mm !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: visible !important;
+      background: white !important;
+    }
+
+    #root {
+      height: auto !important;
+      overflow: visible !important;
+      position: relative !important;
+      display: block !important;
+      background: white !important;
+    }
+
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    .no-print {
+      display: none !important;
+    }
+  }
+}
+
+@layer components {
+
+  /* PREMIUM ANIMATED GRADIENT */
+  .animated-gradient {
+    background-image: linear-gradient(135deg, #0A9E9A, #0078D4, #34C759, #0A9E9A) !important;
+    background-size: 300% 300% !important;
+    animation: gradientShift 8s ease infinite !important;
+  }
+
+  .btn-premium-animated {
+    background-image: linear-gradient(135deg, #0A9E9A, #0078D4, #34C759, #0A9E9A) !important;
+    background-size: 300% 300% !important;
+    animation: gradientShift 8s ease infinite !important;
+    color: white !important;
+    box-shadow: 0 10px 40px -10px rgba(10, 158, 154, 0.5) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-premium-animated:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 20px 40px -10px rgba(0, 120, 212, 0.4) !important;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* CLEAN GLASSMORPHISM */
+  .glass-card {
+    background: var(--salery-glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--salery-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+
+  /* AMBIENT LIGHT BLOBS */
+  .light-blob {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(10, 158, 154, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(80px);
+  }
+
+
+  .blob-1 {
+    top: -300px;
+    left: -300px;
+    animation: floatBlob 25s infinite alternate;
+  }
+
+  .blob-2 {
+    bottom: -300px;
+    right: -300px;
+    animation: floatBlob 30s infinite alternate-reverse;
+  }
+
+  @keyframes floatBlob {
+    from {
+      transform: translate(0, 0) scale(1);
+    }
+
+    to {
+      transform: translate(150px, 80px) scale(1.15);
+    }
+  }
+
+  /* ENTERPRISE CARD SYSTEM */
+  .enterprise-card {
+    background: var(--salery-card);
+    border: 1.5px solid var(--salery-border);
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .enterprise-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+    border-color: var(--salery-primary-teal);
+  }
+
+
+  /* INPUT FIELDS */
+  .enterprise-input {
+    background: var(--salery-input-bg) !important;
+    border: 1.5px solid var(--salery-border) !important;
+    border-radius: 12px !important;
+    padding: 14px 18px !important;
+    transition: all 0.2s ease !important;
+    color: var(--salery-text-primary) !important;
+  }
+
+  .enterprise-input:focus {
+    border-color: var(--salery-primary-teal) !important;
+    box-shadow: 0 0 0 4px rgba(10, 158, 154, 0.1) !important;
+    outline: none !important;
+  }
+
+  .enterprise-input::placeholder {
+    color: var(--salery-text-muted) !important;
+    font-weight: 500 !important;
+  }
+
+  /* BUTTON SYSTEMS */
+  .btn-primary-gradient {
+    background: linear-gradient(135deg, var(--salery-primary-blue) 0%, #0A66C2 100%) !important;
+    color: white !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
+  .btn-primary-gradient:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 120, 212, 0.3) !important;
+  }
+
+  .btn-primary-gradient:active {
+    transform: translateY(0);
+    filter: brightness(0.9);
+  }
+
+  .btn-secondary {
+    background: var(--salery-bg) !important;
+    border: 1.5px solid var(--salery-border) !important;
+    color: var(--salery-text-secondary) !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-secondary:hover {
+    background: var(--salery-card) !important;
+    color: var(--salery-primary-blue) !important;
+    border-color: var(--salery-primary-blue) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 120, 212, 0.1) !important;
+  }
+}
+
+@layer utilities {
+  .custom-scroll::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: var(--salery-border-hover);
+    border-radius: 10px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-gradient {
+    background: linear-gradient(90deg, var(--salery-primary-teal), var(--salery-primary-blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

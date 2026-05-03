@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salery - Premium HR & Payroll AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            /* ENTERPRISE LIGHT PALETTE */
+            --salery-primary-teal: #0A9E9A;
+            --salery-primary-green: #34C759;
+            --salery-bg: #F8FAFC;
+            --salery-card: #FFFFFF;
+            --salery-border: #E2E8F0;
+            --salery-text-primary: #0F172A;
+            --salery-text-secondary: #334155;
+            --salery-text-muted: #64748B;
+        }
+
+        * {
+            min-width: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: var(--salery-bg);
+            font-family: 'Inter', sans-serif;
+            color: var(--salery-text-primary);
+            -webkit-font-smoothing: antialiased;
+            overflow: hidden;
+        }
+
+        #root {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* PREMIUM ANIMATED GRADIENT - UPDATED TO TEAL/GREEN */
+        .animated-gradient {
+            background: linear-gradient(90deg, #0A9E9A, #34C759, #0078D4, #0A9E9A);
+            background-size: 300% 300%;
+            animation: gradientShift 10s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* CLEAN GLASSMORPHISM */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--salery-border);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        /* AMBIENT LIGHT BLOBS - SOFTENED */
+        .light-blob {
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(10, 158, 154, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            filter: blur(80px);
+        }
+
+        .blob-1 {
+            top: -300px;
+            left: -300px;
+            animation: floatBlob 25s infinite alternate;
+        }
+
+        .blob-2 {
+            bottom: -300px;
+            right: -300px;
+            animation: floatBlob 30s infinite alternate-reverse;
+        }
+
+        @keyframes floatBlob {
+            from {
+                transform: translate(0, 0) scale(1);
+            }
+
+            to {
+                transform: translate(150px, 80px) scale(1.15);
+            }
+        }
+
+        /* ENTERPRISE CARD SYSTEM */
+        .enterprise-card {
+            background: var(--salery-card);
+            border: 1.5px solid var(--salery-border);
+            border-radius: 20px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .enterprise-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+            border-color: var(--salery-primary-teal);
+        }
+
+        /* INPUT FIELDS - REMOVED GREY */
+        .enterprise-input {
+            background: #FFFFFF !important;
+            border: 1.5px solid #E2E8F0 !important;
+            border-radius: 12px !important;
+            padding: 14px 18px !important;
+            transition: all 0.2s ease !important;
+            color: var(--salery-text-primary) !important;
+        }
+
+        .enterprise-input:focus {
+            border-color: var(--salery-primary-teal) !important;
+            box-shadow: 0 0 0 4px rgba(10, 158, 154, 0.1) !important;
+            outline: none !important;
+        }
+
+        .enterprise-input::placeholder {
+            color: var(--salery-text-muted) !important;
+            font-weight: 500 !important;
+        }
+
+        .custom-scroll::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .custom-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 10px;
+        }
+
+        .custom-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94A3B8;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .stagger-1 {
+            animation: fadeUp 0.6s ease-out forwards;
+        }
+
+        .stagger-2 {
+            animation: fadeUp 0.6s ease-out 0.1s forwards;
+            opacity: 0;
+        }
+
+        .stagger-3 {
+            animation: fadeUp 0.6s ease-out 0.2s forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* PRIMARY GRADIENT BUTTON SYSTEM */
+        .btn-primary-gradient {
+            background: linear-gradient(135deg, #0078D4 0%, #0A66C2 100%) !important;
+            color: white !important;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        }
+
+        .btn-primary-gradient:hover {
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(0, 120, 212, 0.3) !important;
+        }
+
+        .btn-primary-gradient:active {
+            transform: translateY(0);
+            filter: brightness(0.9);
+        }
+
+        /* SECONDARY BUTTON SYSTEM - VIBRANT HOVER */
+        .btn-secondary {
+            background: #F8FAFC !important;
+            border: 1.5px solid #E2E8F0 !important;
+            color: #64748B !important;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        .btn-secondary:hover {
+            background: #F0F7FF !important;
+            color: #0078D4 !important;
+            border-color: #0078D4 !important;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 120, 212, 0.1) !important;
+        }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>console.log('nested index.html: Inline script in body executed');</script>
+    <script type="module" src="/src/index.tsx"></script>
+</body>
+
+</html>

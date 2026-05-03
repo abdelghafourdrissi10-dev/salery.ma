@@ -1,0 +1,36 @@
+[
+    {
+        "id": "974885e1-a23a-4b5d-a1a2-b7ae88a362a1",
+        "firstName": "Fatima",
+        "lastName": "Zahra",
+        "phone": "+212622222222",
+        "email": "fatima.zahra@salery.ma",
+        "photoUrl": null,
+        "position": "HR Manager",
+        "hireDate": "2022-11-01",
+        "salaryType": "fixed",
+        "baseSalary": 18000,
+        "companyId": "951545bf-6702-41f1-b3f1-a77738abf553",
+        "jobTitle": "HR Manager",
+        "department": "RH",
+        "contractType": "CDI",
+        "country": "MA"
+    },
+    {
+        "id": "0111674a-6125-48d3-b9f6-ff5b591cb1d9",
+        "firstName": "Ahmed",
+        "lastName": "Benali",
+        "phone": "+212611111111",
+        "email": "ahmed.benali@salery.ma",
+        "photoUrl": null,
+        "position": "Software Engineer",
+        "hireDate": "2023-01-15",
+        "salaryType": "fixed",
+        "baseSalary": 15000,
+        "companyId": "951545bf-6702-41f1-b3f1-a77738abf553",
+        "jobTitle": "Software Engineer",
+        "department": "IT",
+        "contractType": "CDI",
+        "country": "MA"
+    }
+]

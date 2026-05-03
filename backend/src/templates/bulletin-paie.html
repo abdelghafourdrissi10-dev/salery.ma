@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bulletin de Paie</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            font-size: 11px;
+        }
+
+        .page {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .company-info {
+            text-transform: uppercase;
+        }
+
+        .company-name {
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .company-details {
+            font-size: 10px;
+            color: #333;
+            margin-top: 5px;
+        }
+
+        .title-box {
+            text-align: right;
+        }
+
+        .doc-title {
+            font-size: 24px;
+            font-weight: 800;
+            text-transform: uppercase;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        .emp-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            border: 1px solid #000;
+            padding: 15px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #555;
+        }
+
+        .info-value {
+            font-weight: 600;
+            font-size: 11px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: right;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: 800;
+        }
+
+        td:first-child,
+        th:first-child {
+            text-align: left;
+        }
+
+        .totals-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .amount-box {
+            border: 2px solid #000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .net-title {
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .net-value {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .signature-area {
+            margin-top: 50px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="company-info">
+                <div class="company-name">{{companyName}}</div>
+                <div class="company-details">
+                    RC: {{companyRC}} | ICE: {{companyICE}}<br>
+                    CNSS: {{companyCNSS}} | Patente: {{companyPatente}}
+                </div>
+            </div>
+            <div class="title-box">
+                <div class="doc-title">Bulletin de Paie</div>
+                <div style="margin-top: 10px; font-weight: 600; font-size: 12px;">Période : {{periode}}</div>
+            </div>
+        </div>
+
+        <div class="emp-grid">
+            <div class="info-box">
+                <div class="info-row"><span class="info-label">Matricule</span> <span
+                        class="info-value">{{empMatricule}}</span></div>
+                <div class="info-row"><span class="info-label">Nom Complet</span> <span
+                        class="info-value">{{empName}}</span></div>
+                <div class="info-row"><span class="info-label">CIN</span> <span class="info-value">{{empCIN}}</span>
+                </div>
+                <div class="info-row"><span class="info-label">N° CNSS</span> <span
+                        class="info-value">{{empCNSS}}</span></div>
+            </div>
+            <div class="info-box">
+                <div class="info-row"><span class="info-label">Département</span> <span
+                        class="info-value">{{empDepartment}}</span></div>
+                <div class="info-row"><span class="info-label">Fonction</span> <span
+                        class="info-value">{{empPosition}}</span></div>
+                <div class="info-row"><span class="info-label">Date Embauche</span> <span
+                        class="info-value">{{empHireDate}}</span></div>
+                <div class="info-row"><span class="info-label">Sit. Familiale</span> <span
+                        class="info-value">{{empFamily}}</span></div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Désignation</th>
+                    <th style="width: 15%">Base / Nbr</th>
+                    <th style="width: 15%">Taux</th>
+                    <th style="width: 20%">Gains</th>
+                    <th style="width: 20%">Retenues</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{dynamicTableRows}}
+            </tbody>
+        </table>
+
+        <div class="totals-grid">
+            <div>
+                <table style="margin-bottom:0;">
+                    <tr>
+                        <td class="info-label">Jours Travaillés</td>
+                        <td class="info-value">{{cumulDays}}</td>
+                        <td class="info-label">Salaire Brut</td>
+                        <td class="info-value">{{cumulBrut}}</td>
+                    </tr>
+                    <tr>
+                        <td class="info-label">Net Imposable</td>
+                        <td class="info-value">{{netImpo}}</td>
+                        <td class="info-label">Frais Pro.</td>
+                        <td class="info-value">{{fraisPro}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="amount-box">
+                <div class="net-title">Net à Payer</div>
+                <div class="net-value">{{netAPayer}} <span style="font-size: 14px; color: #555;">DH</span></div>
+            </div>
+        </div>
+
+        <div class="signature-area">
+            <div class="info-label">Cachet & Signature de l'Employeur</div>
+        </div>
+    </div>
+</body>
+
+</html>

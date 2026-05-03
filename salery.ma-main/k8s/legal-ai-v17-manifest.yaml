@@ -1,0 +1,158 @@
+# SALERY.MA V17 - SUPREME LEGAL AI INFRASTRUCTURE
+# TARGET: Kubernetes 1.29+
+# REGION: MA-CENTRAL-1 (Sovereign Cloud)
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: salery-legal-system
+  labels:
+    tier: compliance
+    security: zero-trust
+    sovereignty: ma-sovereign
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: legal-ai-config
+  namespace: salery-legal-system
+spec:
+  AGENT_MODEL: "gemini-3-pro-preview"
+  MOROCCAN_LABOR_CODE_VERSION: "65-99-V2026"
+  SMIG_THRESHOLD: "3266.10"
+  CNSS_CEILING: "6000"
+  LEGAL_REGION: "MA"
+  LOG_LEVEL: "INFO"
+  KAFKA_TOPIC_AUDIT: "legal.audit.trail"
+  KAFKA_TOPIC_ALARMS: "legal.compliance.alarms"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: legal-ai-secrets
+  namespace: salery-legal-system
+type: Opaque
+stringData:
+  # Injected via Vault or external Secret Manager in real production
+  API_KEY: "${process.env.API_KEY}"
+  DATABASE_URL: "postgresql://legal_svc:REDACTED@legal-db-pooler:5432/salery_legal"
+  EVENT_BUS_CREDENTIALS: "user:REDACTED"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: legal-ai-engine
+  namespace: salery-legal-system
+  labels:
+    app: legal-ai-engine
+    version: v17.0.5
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: legal-ai-engine
+  template:
+    metadata:
+      labels:
+        app: legal-ai-engine
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8080"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 2000
+      containers:
+      - name: compliance-agent
+        image: salery/legal-engine-v17:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+          name: http-metrics
+        envFrom:
+        - configMapRef:
+            name: legal-ai-config
+        - secretRef:
+            name: legal-ai-secrets
+        resources:
+          limits:
+            cpu: "2000m"
+            memory: "4Gi"
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 20
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        volumeMounts:
+        - name: tmp-storage
+          mountPath: /tmp
+      volumes:
+      - name: tmp-storage
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: legal-ai-svc
+  namespace: salery-legal-system
+spec:
+  selector:
+    app: legal-ai-engine
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: legal-ai-hpa
+  namespace: salery-legal-system
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: legal-ai-engine
+  minReplicas: 3
+  maxReplicas: 15
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 65
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 75
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: legal-ai-pdb
+  namespace: salery-legal-system
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: legal-ai-engine

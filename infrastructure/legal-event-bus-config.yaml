@@ -1,0 +1,29 @@
+# SALERY.MA V17 - LEGAL EVENT BUS INFRASTRUCTURE
+# Multi-tenant NATS / Kafka Stream Definition
+
+apiVersion: messaging.salery.ma/v1
+kind: EventBusConfig
+metadata:
+  name: legal-ai-bus
+  namespace: salery-infra
+spec:
+  engine: "NATS-JETSTREAM"
+  storage: "SSD-REPLICATED"
+  tenancy: "MULTI-TENANT-ISOLATED"
+  streams:
+    - name: "LEGAL_LEGISLATIVE_UPDATES"
+      retention: "PERMANENT"
+      encryption: "AES-256-GCM"
+    - name: "LEGAL_COMPLIANCE_ALARMS"
+      retention: "1_YEAR"
+      priority: "CRITICAL"
+    - name: "LEGAL_AUDIT_TRAIL"
+      retention: "10_YEARS"
+      immutable: true
+  security:
+    auth: "MTLS"
+    rbac:
+      - role: "DIRECTEUR_RH"
+        permissions: ["SUBSCRIBE", "VIEW_LOGS"]
+      - role: "AI_AGENT"
+        permissions: ["PUBLISH", "SUBSCRIBE"]

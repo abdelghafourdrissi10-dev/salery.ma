@@ -1,0 +1,9 @@
+{
+  "name": "Salery - Moroccan HR & Payroll AI",
+  "description": "A professional AI-powered HR and Payroll assistant specialized in Moroccan labor law, helping employers manage salaries, contracts, and legal compliance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
